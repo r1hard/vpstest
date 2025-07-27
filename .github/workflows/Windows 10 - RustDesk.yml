@@ -1,4 +1,4 @@
-name: Windows - RustDesk
+name: programmingwithkumaresan
 
 on:
   workflow_dispatch:
@@ -7,7 +7,6 @@ jobs:
   build:
     name: Start Building...
     runs-on: windows-latest
-    
     steps:
       - name: Downloading & Installing Essentials
         run: |
